@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/etrace/!svn/ver/241/jing/trunk/jing/ext
+END
+babel.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/babel.py
+END
+themes.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/themes.py
+END
+context_processors.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/context_processors.py
+END
+blueprints.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/blueprints.py
+END
+error_handlers.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/error_handlers.py
+END
+fixtures.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/fixtures.py
+END
+before_request.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/before_request.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/etrace/!svn/ver/241/jing/trunk/jing/ext/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/etrace/!svn/ver/240/jing/trunk/jing/ext/__init__.py
+END

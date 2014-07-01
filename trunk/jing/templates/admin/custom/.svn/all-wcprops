@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/admin/custom
+END
+create.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/admin/custom/create.html
+END
+_lib.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/admin/custom/_lib.html
+END
+edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/admin/custom/edit.html
+END

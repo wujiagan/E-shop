@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/etrace/!svn/ver/240/jing/trunk/jing/config_templates
+END
+apache2.wsgi.conf.template
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/etrace/!svn/ver/240/jing/trunk/jing/config_templates/apache2.wsgi.conf.template
+END
+settings.py.template
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/etrace/!svn/ver/240/jing/trunk/jing/config_templates/settings.py.template
+END

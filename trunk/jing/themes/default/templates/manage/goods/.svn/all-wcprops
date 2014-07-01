@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/manage/goods
+END
+detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/manage/goods/detail.html
+END
+add.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/manage/goods/add.html
+END
+list.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/manage/goods/list.html
+END

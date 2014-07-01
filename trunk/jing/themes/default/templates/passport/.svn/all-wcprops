@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/passport
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/passport/login.html
+END
+register.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/passport/register.html
+END
+change_password.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/etrace/!svn/ver/240/jing/trunk/jing/themes/default/templates/passport/change_password.html
+END

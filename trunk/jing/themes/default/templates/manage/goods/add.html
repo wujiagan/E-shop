@@ -1,0 +1,40 @@
+{% extends theme("manage/base.html") %}
+
+{% block content %}
+        <div class="row">
+          <div class="col-lg-2">
+           <div class="panel panel-default">
+              <div class="panel-heading">商品管理</div>
+              <div class="panel-body">
+	            <a href="{{url_for('manage_goods_list')}}">商品查询</a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-10">
+          
+			<div class="well">
+              <form class="bs-example form-horizontal">
+                <fieldset>
+                  <legend>新增商品</legend>
+                  <div class="form-group">
+                    <label for="inputName" class="col-lg-2 control-label">名称</label>
+                    <div class="col-lg-8">
+                      <input type="text" class="form-control" id="inputName" placeholder="商品名称">
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button class="btn btn-default">取消</button>
+                      <button type="submit" class="btn btn-primary">提交</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>     
+
+ 
+          </div>
+        </div>
+{% endblock %}

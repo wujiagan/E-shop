@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+import os
+
+DEBUG = %(debug)s
+HOST = '0.0.0.0'
+PORT = %(port)s
+
+SECRET_KEY = 'etrace,kh92ndsg34nsldglasgi2nsdgsdjgk'
+
+DATABASE_HOST = '%(db_host)s'
+DATABASE_PORT = %(db_port)s
+DATABASE_USER = '%(db_user)s'
+DATABASE_PWD = '%(db_pwd)s'
+DATABASE_NAME = '%(db_db)s'
+
+SQLALCHEMY_DATABASE_URI = 'mysql://' + DATABASE_USER + ':' + DATABASE_PWD + '@' + \
+                          DATABASE_HOST + ':' + str(DATABASE_PORT) + '/' + DATABASE_NAME + '?charset=utf8'
+SQLALCHEMY_ECHO = DEBUG
+DEFAULT_THEME = '%(theme)s'

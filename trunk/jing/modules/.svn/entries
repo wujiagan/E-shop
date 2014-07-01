@@ -1,0 +1,98 @@
+10
+
+dir
+244
+http://192.168.1.212:8082/svn/etrace/jing/trunk/jing/modules
+http://192.168.1.212:8082/svn/etrace
+
+
+
+2014-03-26T04:03:02.790136Z
+244
+laval
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fb688c19-952f-4cf5-8550-3a7f5d0dd614
+
+address
+dir
+
+__init__.py
+file
+
+
+
+
+2014-03-26T03:28:14.078674Z
+df4697b9472e60508b091c83df7f595e
+2014-03-26T02:44:32.962616Z
+240
+laval
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24
+
+channel
+dir
+
+manage
+dir
+
+user_info
+dir
+
+goods
+dir
+
+order
+dir
+
+passport
+dir
+
+inventory
+dir
+
+payment
+dir
+
+usercenter
+dir
+
+sms
+dir
+
+captcha
+dir
+

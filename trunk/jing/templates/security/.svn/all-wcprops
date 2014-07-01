@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security
+END
+_macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/_macros.html
+END
+_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/_menu.html
+END
+reset_password.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/reset_password.html
+END
+_messages.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/_messages.html
+END
+login_user.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/login_user.html
+END
+change_password.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/change_password.html
+END
+send_confirmation.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/send_confirmation.html
+END
+send_login.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/send_login.html
+END
+forgot_password.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/forgot_password.html
+END
+register_user.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/register_user.html
+END

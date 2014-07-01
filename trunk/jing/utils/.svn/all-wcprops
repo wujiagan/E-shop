@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/etrace/!svn/ver/243/jing/trunk/jing/utils
+END
+translation.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/translation.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/settings.py
+END
+text.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/text.py
+END
+dateformat.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/dateformat.py
+END
+routing.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/routing.py
+END
+populate.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/etrace/!svn/ver/243/jing/trunk/jing/utils/populate.py
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/etrace/!svn/ver/244/jing/trunk/jing
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/etrace/!svn/ver/240/jing/trunk/jing/admin.py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/etrace/!svn/ver/240/jing/trunk/jing/wsgi.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/etrace/!svn/ver/240/jing/trunk/jing/__init__.py
+END
+test_settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/etrace/!svn/ver/240/jing/trunk/jing/test_settings.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/etrace/!svn/ver/240/jing/trunk/jing/settings.py
+END

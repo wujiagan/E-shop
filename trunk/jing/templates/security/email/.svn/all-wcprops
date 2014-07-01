@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email
+END
+change_notice.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/change_notice.txt
+END
+reset_instructions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/reset_instructions.txt
+END
+reset_notice.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/reset_notice.html
+END
+change_notice.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/change_notice.html
+END
+reset_instructions.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/reset_instructions.html
+END
+welcome.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/welcome.txt
+END
+confirmation_instructions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/confirmation_instructions.txt
+END
+login_instructions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/login_instructions.txt
+END
+welcome.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/welcome.html
+END
+confirmation_instructions.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/confirmation_instructions.html
+END
+login_instructions.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/login_instructions.html
+END
+reset_notice.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/security/email/reset_notice.txt
+END

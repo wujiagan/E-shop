@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core
+END
+middleware.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/middleware.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/views.py
+END
+templates.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/templates.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/__init__.py
+END
+app.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/app.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/models.py
+END
+database.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/database.py
+END
+db.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/db.py
+END
+widgets.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/etrace/!svn/ver/240/jing/trunk/jing/core/widgets.py
+END

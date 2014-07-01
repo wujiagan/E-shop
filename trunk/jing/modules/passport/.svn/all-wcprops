@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/passport
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/passport/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/passport/__init__.py
+END
+form.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/passport/form.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/passport/models.py
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/passport/admin.py
+END

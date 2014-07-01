@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/captcha
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/captcha/__init__.py
+END
+pic_checker.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/etrace/!svn/ver/240/jing/trunk/jing/utils/captcha/pic_checker.py
+END

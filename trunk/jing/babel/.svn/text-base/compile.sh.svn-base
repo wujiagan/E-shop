@@ -1,0 +1,1 @@
+sudo ~/pve/bin/pybabel compile -d translations

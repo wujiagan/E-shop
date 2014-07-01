@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/etrace/!svn/ver/240/jing/trunk/jing/tests
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/etrace/!svn/ver/240/jing/trunk/jing/tests/__init__.py
+END
+test_basic.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/etrace/!svn/ver/240/jing/trunk/jing/tests/test_basic.py
+END
+test_text_utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/etrace/!svn/ver/240/jing/trunk/jing/tests/test_text_utils.py
+END

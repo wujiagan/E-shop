@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/base.html
+END
+_menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/_menu.html
+END
+_formhelpers.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/_formhelpers.html
+END
+_forms.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/_forms.html
+END

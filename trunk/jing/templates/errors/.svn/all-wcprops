@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/errors
+END
+server_error.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/errors/server_error.html
+END
+method_not_allowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/errors/method_not_allowed.html
+END
+page_not_found.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/errors/page_not_found.html
+END
+access_forbidden.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/etrace/!svn/ver/240/jing/trunk/jing/templates/errors/access_forbidden.html
+END

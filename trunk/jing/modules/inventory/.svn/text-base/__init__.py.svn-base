@@ -1,0 +1,2 @@
+from flask import Blueprint
+module = Blueprint('inventory', __name__, template_folder='templates')

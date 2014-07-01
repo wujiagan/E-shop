@@ -1,0 +1,48 @@
+{% extends theme("manage/base.html") %}
+
+{% block content %}
+        <div class="row">
+          <div class="col-lg-2">
+           <div class="panel panel-default">
+              <div class="panel-heading">会员管理</div>
+              <div class="panel-body">
+                查询会员
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-10">
+			<div class="bs-example table-responsive">
+              <table class="table table-striped table-hover ">
+                <thead>
+                  <tr>
+                    <th>编号</th>
+                    <th>用户名</th>
+                    <th>邮箱</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for user in users %}
+                  <tr>
+                    <td>{{user.id}}</td>
+                    <td>{{user.username}}</td>
+                    <td>{{user.email}}</td>
+                  </tr>
+                {% endfor %}
+                </tbody>
+              </table> 
+            </div>
+            
+            <ul class="pagination">
+                <li class="disabled"><a href="#">«</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">»</a></li>
+              </ul>
+            
+          </div>
+        </div>
+{% endblock %}

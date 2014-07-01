@@ -1,0 +1,582 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="花果山" />
+<meta name="Description" content="专业的卖水果的生鲜平台" />
+<title>首页 - 花果山 - 最好的网上水果商城</title>
+<link rel="stylesheet" type="text/css"
+	href="http://www.huaguoshan.com/Tpl/Public/Css/hgs_style.css" />
+<script>var appUrl = "";</script>
+<script>var appRoot = "http://www.huaguoshan.com/";</script>
+<script type="text/javascript" src="{{ theme_static('js/jquery-1.9.1.min.js')}} "></script>
+<script type="text/javascript" src="{{ theme_static('js/Validform_v5.3.2.js')}} "></script>
+<script type="text/javascript" src="{{ theme_static('js/hgs_style.js')}} "></script>
+<script type="text/javascript" src="{{ theme_static('js/jquery.lazyload.js')}} "></script>
+<link rel="shortcut icon" href="{{ theme_static('images/favicon.ico')}}" />
+<link rel="icon" href="{{ theme_static('images/animated_favicon.gif')}}" type="image/gif" />
+{% block header_css %}
+{% endblock %}
+</head>
+<body style="position: relative;" id="change_css" class="change_1190">
+	<div class="index_top clearfix">
+		<div class="index_top_main clearfix">
+			<a class="collect_hgs"
+				onclick="AddFavorite(window.location,document.title)"><b></b>收藏花果山</a>
+			<ul class="index_top_status">
+				<li>您好，欢迎光临花果山！</li>
+				{% if not current_user.username %}
+				<li>
+				[<a href="#" class="hgs_login" onclick="login()">登录</a>] 
+				[<a href="#" class="hgs_register" onclick="register()">免费注册</a>]
+				</li>
+				{% endif %}
+				{% if current_user.username %}
+				<li>15322371085 [<a href="/Users/logout" class="hgs_login">退出</a>]</li>
+				{% endif %}
+				
+				<li class="clearfix my_hgs"><s></s><a href="/Usercenter"
+					class="need_login" target="_blank">我的花果山</a><b></b> <span></span>
+					<div class="blank_box"></div>
+					<div class="my_hgs_down">
+						<div>
+							<a href="/Usercenter/credit" target="_blank" class="need_login">我的积分</a>
+						</div>
+						<div>
+							<a href="/Usercenter/invite" target="_blank" class="need_login">邀请好友</a>
+						</div>
+						<div>
+							<a href="/Usercenter/bonus" target="_blank" class="need_login">优惠券</a>
+						</div>
+						<div>
+							<a href="/Usercenter/giftcard" target="_blank" class="need_login">礼品卡</a>
+						</div>
+					</div></li>
+
+				<li><s></s><a href="/Usercenter/orders" class="{% if not current_user.username %}need_login{% endif %}" target="_blank">我的订单</a></li>
+				
+				<!--<li><s></s><a href="/Usercenter/charge" class="need_login" target="_blank">充值</a></li>-->
+
+				<li><s></s><a href="/HelpCenter/index/id/7" target="_blank">帮助中心</a></li>
+				<li><s></s><a href="/Announce" target="_blank">公告</a></li>
+				<li><s></s><a href="/Feedback" target="_blank" target="_blank">意见反馈</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="top_center clearfix">
+		<a href="/" class="hgs_logo" hidefocus="true"><img
+			src="http://www.huaguoshan.com/Tpl//Public/Images/hgs_logo.jpg" /></a>
+		<div class="change_city">
+			<div class="clearfix">
+				<div
+					style="float: left; height: 25px; line-height: 25px; padding-right: 5px;">送至</div>
+				<div class="clearfix change_city_blank">
+
+					<div class="change_city_name">
+						<span id="cityName"> </span><b></b>
+					</div>
+					<div class="change_city_item">
+						<div class="clearfix">
+							<div class="storehouse_title sitelist">深圳仓：</div>
+							<div class="storehouse_city_list">
+								<div class="storehouse_city" siteid="4">福建</div>
+								<div class="storehouse_city hover" siteid="6">广东</div>
+								<div class="storehouse_city" siteid="7">广西</div>
+								<div class="storehouse_city" siteid="14">湖南</div>
+								<div class="storehouse_city" siteid="17">江西</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="storehouse_title sitelist">上海仓：</div>
+							<div class="storehouse_city_list">
+								<div class="storehouse_city" siteid="3">安徽</div>
+								<div class="storehouse_city" siteid="13">湖北</div>
+								<div class="storehouse_city" siteid="16">江苏</div>
+								<div class="storehouse_city" siteid="25">上海</div>
+								<div class="storehouse_city" siteid="31">浙江</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="storehouse_title sitelist">北京仓：</div>
+							<div class="storehouse_city_list">
+								<div class="storehouse_city" siteid="2">北京</div>
+								<div class="storehouse_city" siteid="10">河北</div>
+								<div class="storehouse_city" siteid="11">河南</div>
+								<div class="storehouse_city" siteid="12">黑龙江</div>
+								<div class="storehouse_city" siteid="15">吉林</div>
+								<div class="storehouse_city" siteid="18">辽宁</div>
+								<div class="storehouse_city" siteid="19">内蒙古</div>
+								<div class="storehouse_city" siteid="22">山东</div>
+								<div class="storehouse_city" siteid="23">山西</div>
+								<div class="storehouse_city" siteid="24">陕西</div>
+								<div class="storehouse_city" siteid="27">天津</div>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="storehouse_title sitelist">成都仓：</div>
+							<div class="storehouse_city_list">
+								<div class="storehouse_city" siteid="8">贵州</div>
+								<div class="storehouse_city" siteid="26">四川</div>
+								<div class="storehouse_city" siteid="30">云南</div>
+								<div class="storehouse_city" siteid="32">重庆</div>
+							</div>
+						</div>
+						<div class="change_city_prompt">
+							<img
+								src="http://www.huaguoshan.com/Tpl//Public/Images/beijing_city.jpg" />
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<p id="postage_txt"></p>
+		</div>
+		<div class="f_right clearfix">
+			<div class="hgs_search_main">
+				<div class="hgs_search">
+					<input id="tb_search" type="text" value="" /> <span id="btn_search"></span>
+				</div>
+				<ul class="hgs_hot_search">
+					<li>搜索：</li>
+					<li><a href="/Search/index/searchname/梨" target="_blank"
+						id="default_search">梨</a></li>
+					<li><a href="/Search/index/searchname/香蕉" target="_blank">香蕉</a></li>
+					<li><a href="/Search/index/searchname/苹果" target="_blank">苹果</a></li>
+					<li><a href="/Search/index/searchname/奇异果" target="_blank">奇异果</a></li>
+
+				</ul>
+			</div>
+
+			<div class="hgs_prompt">
+				<img
+					src="http://www.huaguoshan.com/Tpl//Public/Images/hgs_tishi.jpg" />
+			</div>
+			<div class="hgs_phone"></div>
+		</div>
+	</div>
+
+	<div class="hgs_nav_main">
+		<div class="hgs_nav">
+			<ul class="clearfix">
+				<li><a href="/" hidefocus="true">首页</a></li>
+				<li><a href="/Category/2.html" hidefocus="true">尝鲜装</a></li>
+				<li><a href="/Category/4.html" hidefocus="true">原箱装</a></li>
+				<li><a href="/Category/6.html" hidefocus="true">礼盒</a></li>
+				<li><a href="/CompanyOrder" hidefocus="true">企业购买</a></li>
+				<li><a href="/Category/10.html" hidefocus="true">礼品卡</a></li>
+			</ul>
+			<div class="mini_cart_main" id="cart_main">
+				<div class="minicart_num">2</div>
+				<div class="mini_cart" id="mini_cart">
+					<a href="/Cart">购物车</a>
+				</div>
+
+				<div class="minicart">
+					<h3>您购物车中的商品</h3>
+					<div class="shoppping_cart_main">
+						<div class="shoppping_item clearfix">
+							<a
+								href="http://www.huaguoshan.com/Public/Images/25/10975_thumb.jpg"
+								target="_blank"><img
+								src="http://www.huaguoshan.com/Public/Images/25/10975_thumb.jpg" /></a>
+							<div class="shoppping_item_conter">
+								<a href="/Product/10975.html" target="_blank">菲律宾甜香蕉 特级优选大果
+									仅限深圳 2kg</a>
+								<p>￥39.00</p>
+							</div>
+							<div class="shoppping_item_right">
+								<div class="top clearfix">
+									<a href="javascript:changeCartNum(6635,-1);"
+										class="product_del"></a> <input style="ime-mode: disabled"
+										data-pid="10975" class="product_num prd_num_10975" type="text"
+										value="2" id="min_goods_number_6635"
+										onblur="javascript:min_change_prd_number(6635,this.value);"
+										maxlength="2" /> <a class="product_add"
+										href="javascript:changeCartNum(6635,1);"></a>
+								</div>
+								<div class="bottom">
+									<a href="javascript:delCart(10975);">删除</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="shoppping_item_accounts">
+						<div class="top clearfix">
+							<div class="left">
+								共<span>2</span>件商品
+							</div>
+							<div class="right">
+								小计：<span>￥78.00</span>
+							</div>
+						</div>
+						<div class="bottom">
+							<a href="/Cart">去购物车页面</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+/**
+if (host == 'www.huaguoshan.com' || host == 'huaguoshan.com' ) {
+var _paq = _paq || [];
+_paq.push(['addEcommerceItem', '10975','菲律宾甜香蕉 特级优选大果 仅限深圳 2kg','',parseFloat("39.00"),]);_paq.push(['trackEcommerceCartUpdate',78.00]);
+ (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.huaguoshan.com/sE2d3djLk/";
+    _paq.push(['setTrackerUrl', u+'analysis.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'analysis.js'; s.parentNode.insertBefore(g,s);
+  })();
+}
+**/
+</script>
+
+		</div>
+	</div>
+
+	<!--登录注册找密码-->
+	<div class="login_register_main">
+		<div class="login_close">
+			<img
+				src="http://www.huaguoshan.com/Tpl//Public/Images/login_close.jpg"
+				onclick="closelore_main()" />
+		</div>
+		<input id="signJumpPage" value="" type="hidden" />
+
+		<div id="login_main" style="display: none">
+			<form action="/Users/login" id="login_form" method="POST">
+				<div class="login_tab">
+					<div class="login_register_btn"></div>
+				</div>
+
+				<div class="login_prompt_1"></div>
+
+				<div class="login_input_main clearfix">
+					<span>用户名：</span><input id="login_username" type="text"
+						datatype="e|m" name="login_username" errormsg="用户名必须为手机号码或电子邮箱"
+						nullmsg="请输入手机号码或电子邮箱" />
+				</div>
+				<div class="login_input_blank"></div>
+				<div class="login_input_main clearfix">
+					<span>密码：</span><input id="login_password" type="password"
+						datatype="*6-12" name="login_password" errormsg="密码长度6-12位" />
+				</div>
+				<div class="login_input_blank"></div>
+				<div class="login_validate_main clearfix" style="display: none;">
+					<span>验证码：</span><input width="116px;" type="text" />
+					<div class="identifying_code_main">
+						<img
+							src="http://www.huaguoshan.com/Tpl//Public/Images/ceshi_2.png"><a>看不清楚？</a>
+					</div>
+				</div>
+				<div class="clearfix">
+					<input type="submit" class="login_btn_style f_left" value="登录" />
+					<a class="forget_pass">忘记登录密码？</a>
+				</div>
+
+			</form>
+		</div>
+
+		<div id="register_main" style="display: none">
+			<style type="text/css">
+#code_sn::-webkit-input-placeholder {
+	color: #d2d2d2;
+}
+
+#code_sn:-moz-placeholder {
+	color: #d2d2d2;
+}
+
+#code_sn:-ms-input-placeholder {
+	color: #d2d2d2;
+}
+​
+</style>
+			<div class="register_tab">
+				<div class="register_login_btn"></div>
+			</div>
+
+			<form action="/Users/register" id="register_form" method="POST">
+				<div class="login_prompt_1">注册即送100积分，购物可抵现金使用！</div>
+				<div class="login_input_main clearfix">
+					<span>手机/邮箱：</span>
+					<input id="register_username" type="text"
+						name="register_username" ajaxurl="/Users/checkuser" datatype="e|m"
+						errormsg="用户名必须为手机号码或电子邮箱" nullmsg="请输入手机号或电子邮箱" /> <span
+						class="Validform_checktip"></span>
+				</div>
+				<div class="login_input_blank"></div>
+				<div class="login_input_main clearfix">
+					<span>密码：</span><input id="register_password" type="password"
+						name="register_password" datatype="*6-12" errormsg="密码长度6-12位" />
+					<span class="Validform_checktip">6-20位英文、数字及“_”、“-”组合</span>
+				</div>
+				<div class="login_input_blank"></div>
+				<div class="login_validate_main clearfix" style="display: block;">
+					<span>邀请码：</span><input class="invitation_system" id="code_sn"
+						name='code_sn' placeholder="如有邀请码，请输入" type="text"
+						datatype="/[a-zA-Z0-9]{0,8}/" ajaxurl="/Users/checkInviteCode"
+						errormsg="邀请码不存在" />
+				</div>
+				<div class="clearfix">
+					<input type="submit" class="login_btn_style" value="注册" />
+				</div>
+
+			</form>
+		</div>
+
+		<div id="find_pass" style="display: none;">
+			<form action="/Users/forgetpassword" id="forget-password"
+				method="post">
+				<div class="find_pass_img"></div>
+				<div class="find_pass_prompt">请输入您注册的邮箱手机号，我们会把密码发给您</div>
+				<div class="login_input_main clearfix">
+					<span>手机/邮箱：</span><input type="text" name="forget_username"
+						id="forget_username" datatype="e|m" errormsg="请输入您的账号"
+						nullmsg="请输入您的账号" />
+				</div>
+				<div class="login_input_blank"></div>
+				<div class="login_validate_main clearfix">
+					<span>验证码：</span><input type="text" name="verify" value=""
+						datatype="n" errormsg="请输入验证码" nullmsg="请输入验证码" />
+					<!-- 
+            <div class="identifying_code_main" onclick="updateVerify();">
+            <img src="/Users/verify" id="verifyImg" ><a href="javascript:void(0)" >看不清楚？</a></div>
+             -->
+				</div>
+				<div class="clearfix">
+					<input type="submit" class="login_btn_style" value="提交" /> <span
+						class="forget-tip"></span>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+<script type="text/javascript">
+ 	function AddFavorite(sURL, sTitle) { 
+		sURL = encodeURI(sURL);  
+		try{
+			window.external.addFavorite(sURL, sTitle);    
+		} catch(e) { 
+    		try{    
+    			window.sidebar.addPanel(sTitle, sURL, "");    
+    		} catch(e) { alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置."); 
+		}    
+	} 
+} 
+</script>
+
+{% block banner %}
+{% endblock %}
+{% block index_body %}
+{% endblock %}
+
+	
+	<div class="foot_nav">
+		<div class="foot_nav_main">
+			<dl>
+				<dt>新手指南</dt>
+				<dd>
+					<a href="/HelpCenter/index/id/7" target="_blank">购物流程</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/8" target="_blank">账户注册</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/9" target="_blank">会员积分</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/10" target="_blank">联系客服</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>付款方式</dt>
+				<dd>
+					<a href="/HelpCenter/index/id/11" target="_blank">货到付款</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/12" target="_blank">在线支付</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/13" target="_blank">在线充值</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>配送服务</dt>
+				<dd>
+					<a href="/HelpCenter/index/id/14" target="_blank">配送运费 </a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/15" target="_blank">配送范围</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/16" target="_blank">配送时间</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/17" target="_blank">配送需知</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>售后服务</dt>
+				<dd>
+					<a href="/HelpCenter/index/id/18" target="_blank">关于商品的退换</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/19" target="_blank">关于退换的处理</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/20" target="_blank">关于退款</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>关于我们</dt>
+				<dd>
+					<a href="/HelpCenter/index/id/21" target="_blank">关于花果山</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/22" target="_blank">联系我们</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/23" target="_blank">业务合作</a>
+				</dd>
+				<dd>
+					<a href="/HelpCenter/index/id/24" target="_blank">招贤纳士</a>
+				</dd>
+			</dl>
+			<div class="microblog_main">
+				<div style="height: 27px;"></div>
+				<a href="http://e.weibo.com/hgsbest" target="_blank"
+					class="microblog">加关注</a>
+				<div style="height: 27px;"></div>
+				<a class="wechat">扫一扫<b></b>
+					<div class="wechat_icon"></div>
+				</a>
+			</div>
+			<div class="contact_hgs">
+				<div class="service_hotline">客服电话</div>
+				<h2>400-999-6026</h2>
+				<div class="work_time">工作时间 08:00~18:00</div>
+				<div class="sub_information">订阅最新优惠信息</div>
+				<form id="subscribe_form" action="/Users/subscribe" method="POST">
+					<div class="sub_mail_address clearfix">
+						<input id="subscribe_mail" name="email" datatype="e"
+							ignore="ignore" nullmsg="请输入邮箱地址" errormsg="请输入邮箱地址" type="text"
+							value="请输入订阅邮箱" /><a href="javascript:void(0)" id="subscribe">订阅</a>
+						<div class="Validform_checktip clearfix"></div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="foot_center">
+		<div class="foot_center_main clearfix">
+			<div class="foot_center_1">
+				多仓发货<b></b>
+			</div>
+			<div class="foot_center_2">
+				急速送达<b></b>
+			</div>
+			<div class="foot_center_3">
+				农残检测<b></b>
+			</div>
+			<div class="foot_center_4">
+				产地直供<b></b>
+			</div>
+			<div class="foot_center_5">天然健康</div>
+		</div>
+	</div>
+	<div class="foot_bottom">Copyright ©2013-2014 花果山huaguoshan.com
+		All Rights Reserved | 深圳花果山科技有限公司 | 粤ICP备13042124号</div>
+
+
+	<!--弹窗-->
+	<div class="pop_main" id="shopping_prompt">
+		<div class="pop_title">
+			支付<img
+				src="http://www.huaguoshan.com/Tpl//Public/Images/pop_close.jpg" />
+		</div>
+		<div class="pop_content clearfix">
+			<span>您尚未登录！会员购买可享受花果山多重优惠，建议您登录/注册之后购买。</span>
+		</div>
+		<div class="clearfix">
+			<a class="btn_style_1 pop_btn need_login" href="/Flow/checkout">确定</a>
+			<a class="pop_link" href="/Flow/checkout">免登陆继续购买></a>
+		</div>
+	</div>
+
+	<div class="pop_main" id="prompt_msg">
+		<div class="pop_title" id="prompt_title">
+			提示<img
+				src="http://www.huaguoshan.com/Tpl//Public/Images/pop_close.jpg" />
+		</div>
+		<div class="pop_content clearfix">
+			<span id="prompt_msg_msg">提示内容</span>
+		</div>
+		<div class="clearfix">
+			<div class="btn_style_1 pop_btn" id="dlg-close"></div>
+			<a href="#" id="dlg-link" class="pop_link"></a>
+		</div>
+	</div>
+
+	<div class="pop_main">
+		<div class="pop_title">
+			支付<img
+				src="http://www.huaguoshan.com/Tpl//Public/Images/pop_close.jpg" />
+		</div>
+		<div class="pop_content clearfix">
+			<span>您尚未登录！会员购买可享受花果山多重优惠，建议您登录/注册之后购买。</span>
+		</div>
+		<div class="clearfix">
+			<div class="btn_style_1 pop_btn">取消</div>
+			<div class="btn_style_1 pop_btn">确定</div>
+		</div>
+	</div>
+
+	<div class="pop_main" id="cp-buy">
+		<div class="pop_title">
+			提交成功<img
+				src="http://www.huaguoshan.com/Tpl//Public/Images/pop_close.jpg" />
+		</div>
+		<div class="pop_content clearfix">
+			<span>您的采购需求已提交成功,我们会尽快联系您!</span>
+		</div>
+		<div class="clearfix">
+			<div class="btn_style_1 pop_btn">确定</div>
+		</div>
+	</div>
+
+	<div class="pop_main">
+		<div class="pop_title">
+			手机验证<img
+				src="http://www.huaguoshan.com/Tpl//Public/Images/pop_close.jpg" />
+		</div>
+		<div class="mobile_phone_title">手机号验证，无需登录，直接购买</div>
+		<div class="mobile_phone_input_item">
+			<span>手机号</span> <input type="text" style="width: 185px;" /> <input
+				type="button" value="发送验证码" />
+		</div>
+		<div class="mobile_phone_input_item">
+			<span>验证码</span> <input type="text" style="width: 80px;" /> <input
+				type="button" value="　验证　" />
+		</div>
+	</div>
+
+	<!--客服-->
+	<div class="sidepanel">
+		<div class="custom_service" onclick="ShowDialog()">
+			<img src="http://www.huaguoshan.com/Tpl//Public/Images/zhayan.gif" />
+		</div>
+		<div class="micro_blog">
+			<div class="weixin_icon"></div>
+		</div>
+		<div class="go_top" id="gotopbtn">
+			<img
+				src="http://www.huaguoshan.com/Tpl//Public/Images/go_top_icon.png" />
+		</div>
+	</div>
+	
+{% block footer_js %}
+{% endblock %}
+	
+</body>
+</html>

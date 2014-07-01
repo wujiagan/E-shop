@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/goods
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/goods/models.py
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/goods/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/goods/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/etrace/!svn/ver/240/jing/trunk/jing/modules/goods/__init__.py
+END

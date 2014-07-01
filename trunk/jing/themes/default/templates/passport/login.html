@@ -1,0 +1,33 @@
+{% from theme('_formhelpers.html') import render_field %}
+{% extends theme("base.html") %}
+
+{% block title %}登录{% endblock %}
+{% block css_head %}
+<link href="{{ theme_static('css/passport.css')}}" rel="stylesheet" type="text/css">
+{% endblock %}
+{% block content %}
+<form method=post action="{{url_for('passport_login')}}" class = "form">
+    <div class="control-group">
+        <div class="controls">
+            {{ render_field(form.email) }}
+            <span id="email_er" class="errors"></span>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            {{ render_field(form.password) }}
+            <span id="password_er" class="errors"></span>
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <input type = "submit" values = "注册" class = "submit_btn">
+        </div>
+    </div>
+</form>
+
+{% endblock %}
+
+{% block js_footer %}
+        <script type="text/javascript" src="{{ theme_static('js/login.js')}}"></script>
+{% endblock %}
